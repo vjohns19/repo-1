@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <link rel="stylesheet" href="/vickiestyle/style.css">
+
+        <script type="text/javascript">
+        //Created a javascript function with the name touchRock
+        function touchBlock() {
+            //Create a new variable named userName set i equal to prompt
+            //Asked the user for their name.
+            var taxHelp = prompt("What tax year do you need help with?", "Enter four digit year here.");
+            //decision making ? Yes it is.
+            //We cset up a if statement to decide if the user entered a Name.
+            if (taxHelp) {
+                //If user entered Name we alert the user its nice to meet you.
+                alert("Let's get started.");
+                //Here we change the photo from unhappy to happy
+                document.getElementById("myBlockImg").src="myBlock1.png";
+            }
+        }
+        </script>
+
+        <title>myBlock - The Iconic Tax Pro</title>
+</head> 
+<body onload="alert('Hello I am Your Iconic Tax Pro');">
+   <div style="margin-top:100px; text-align:center" class="alert alert-primary">
+    <img id="myBlockimg" src="myBlock1.png" alt="myBlock" style="cursor:pointer" onclick="toucBlock();">
+    </div> 
+</body>
+</html>

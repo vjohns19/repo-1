@@ -1,0 +1,8 @@
+var dog = {
+    "name" : "Samson", 
+    "age" : 14, "breed" : "jack russell"
+}
+
+var rug = {"room" : "living", "color" : "white"}
+
+var laptop = {"brand" : "Dell",  "model" : "Expirion" }

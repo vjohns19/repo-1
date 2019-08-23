@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Switch Example</title>
+</head>
+<body>
+
+    <h1>Switch Day</h1>
+    <p id="demo"></p>
+    <script>
+    var input = 3;
+    var day = "";
+    // HOMEWORK is to create a switch statement that switches 
+    // the day of the week.  Also create a switch statement for 
+    // the months of the year.
+    switch (input) {
+        case 1:
+            {
+                day = "Sunday"
+                break;
+            }
+        case 2:
+            {
+                day = "Monday"
+                break;
+            }
+        case 3:
+            {
+                day = "Tuesday"
+                break;
+            } 
+            case 4:
+            {
+                day = "Wednesday"
+            }
+            case 5:
+            {
+                day = "Thursday"
+            }
+            case 6:
+            {       
+                day = "Friday"
+            }
+            case 7:
+            {
+                day = "Saturday"
+            }                
+           default:
+            day = "What day is it?"
+            }
+           
+            document.getElementById("demo").innerHTML = number;
+    </script>
+
+</body>
+</html>

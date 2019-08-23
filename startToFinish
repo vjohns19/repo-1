@@ -1,0 +1,5 @@
+var x = [A.blue, B.green, C.red]
+
+var cake = [a.flavor, b.color, c.icing]
+
+var dateofbirth = [1.month, 2.date, 3.year] 
